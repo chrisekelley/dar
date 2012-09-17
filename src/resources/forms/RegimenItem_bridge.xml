@@ -182,8 +182,8 @@
       <colspan>2</colspan>
       <highlightCell>false</highlightCell>
       <dropdownTable>regimen</dropdownTable>
-      <dropdownColumn>code || &apos;: &apos; || name</dropdownColumn>
-      <dropdownConstraint>WHERE ((disabled is null) OR (disabled = 0))</dropdownConstraint>
+      <dropdownColumn>&apos; (&apos; || code || &apos;) &apos; || name</dropdownColumn>
+      <dropdownConstraint></dropdownConstraint>
       <dropdownOrderByClause> ORDER BY code</dropdownOrderByClause>
       <fkIdentifier></fkIdentifier>
     </org.rti.zcore.PageItem>

@@ -113,50 +113,6 @@
       <dropdownConstraint></dropdownConstraint>
     </org.rti.zcore.PageItem>
     <org.rti.zcore.PageItem>
-      <id>4613</id>
-      <form__field>
-        <id>2298</id>
-        <label>Old Code</label>
-        <type>Text</type>
-        <required>false</required>
-        <minValue>0</minValue>
-        <maxValue>0</maxValue>
-        <units></units>
-        <displayOrder>2147483647</displayOrder>
-        <isEnabled>true</isEnabled>
-        <ruleDefinitions/>
-        <enumerations/>
-        <shared>false</shared>
-        <starSchemaName>old_code</starSchemaName>
-        <uuid>40297ef0-6415-45b3-9660-c2156f2e25be</uuid>
-        <locale>en_US</locale>
-      </form__field>
-      <formFieldId>2298</formFieldId>
-      <displayOrder>2</displayOrder>
-      <inputType>text</inputType>
-      <closeRow>false</closeRow>
-      <columnNumber>0</columnNumber>
-      <size>3</size>
-      <maxlength>255</maxlength>
-      <rows>0</rows>
-      <cols>0</cols>
-      <visible>true</visible>
-      <visibleEnumIdTrigger1></visibleEnumIdTrigger1>
-      <visibleDependencies1></visibleDependencies1>
-      <visibleEnumIdTrigger2></visibleEnumIdTrigger2>
-      <selectedEnum>0</selectedEnum>
-      <visibleDependencies2></visibleDependencies2>
-      <formId>129</formId>
-      <colspan>0</colspan>
-      <highlightCell>false</highlightCell>
-      <dropdownTable></dropdownTable>
-      <dropdownColumn></dropdownColumn>
-      <dropdownConstraint></dropdownConstraint>
-      <dropdownOrderByClause></dropdownOrderByClause>
-      <importId>0</importId>
-      <fkIdentifier></fkIdentifier>
-    </org.rti.zcore.PageItem>
-    <org.rti.zcore.PageItem>
       <id>4361</id>
       <form__field>
         <id>2145</id>
@@ -176,7 +132,7 @@
         <locale>en_US</locale>
       </form__field>
       <formFieldId>2145</formFieldId>
-      <displayOrder>3</displayOrder>
+      <displayOrder>2</displayOrder>
       <inputType>text</inputType>
       <closeRow>false</closeRow>
       <columnNumber>0</columnNumber>
@@ -217,14 +173,14 @@
         <locale>en_US</locale>
       </form__field>
       <formFieldId>2146</formFieldId>
-      <displayOrder>4</displayOrder>
-      <inputType>textarea</inputType>
-      <closeRow>true</closeRow>
+      <displayOrder>3</displayOrder>
+      <inputType>text</inputType>
+      <closeRow>false</closeRow>
       <columnNumber>0</columnNumber>
       <size>35</size>
       <maxlength>255</maxlength>
-      <rows>3</rows>
-      <cols>60</cols>
+      <rows>0</rows>
+      <cols>0</cols>
       <visible>true</visible>
       <visibleEnumIdTrigger1></visibleEnumIdTrigger1>
       <visibleDependencies1></visibleDependencies1>
@@ -232,13 +188,11 @@
       <selectedEnum>0</selectedEnum>
       <visibleDependencies2></visibleDependencies2>
       <formId>129</formId>
-      <colspan>3</colspan>
+      <colspan>0</colspan>
       <highlightCell>false</highlightCell>
       <dropdownTable></dropdownTable>
       <dropdownColumn></dropdownColumn>
       <dropdownConstraint></dropdownConstraint>
-      <dropdownOrderByClause></dropdownOrderByClause>
-      <fkIdentifier></fkIdentifier>
     </org.rti.zcore.PageItem>
     <org.rti.zcore.PageItem>
       <id>4363</id>
@@ -260,9 +214,9 @@
         <locale>en_US</locale>
       </form__field>
       <formFieldId>2147</formFieldId>
-      <displayOrder>5</displayOrder>
-      <inputType>hidden-no-listing</inputType>
-      <closeRow>true</closeRow>
+      <displayOrder>4</displayOrder>
+      <inputType>text</inputType>
+      <closeRow>false</closeRow>
       <columnNumber>0</columnNumber>
       <size>0</size>
       <maxlength>0</maxlength>
@@ -275,13 +229,8 @@
       <selectedEnum>0</selectedEnum>
       <visibleDependencies2></visibleDependencies2>
       <formId>129</formId>
-      <colspan>1</colspan>
+      <colspan>0</colspan>
       <highlightCell>false</highlightCell>
-      <dropdownTable></dropdownTable>
-      <dropdownColumn></dropdownColumn>
-      <dropdownConstraint></dropdownConstraint>
-      <dropdownOrderByClause></dropdownOrderByClause>
-      <fkIdentifier></fkIdentifier>
     </org.rti.zcore.PageItem>
     <org.rti.zcore.PageItem>
       <id>4364</id>
@@ -303,7 +252,7 @@
         <locale>en_US</locale>
       </form__field>
       <formFieldId>2148</formFieldId>
-      <displayOrder>6</displayOrder>
+      <displayOrder>5</displayOrder>
       <inputType>dropdown</inputType>
       <closeRow>false</closeRow>
       <columnNumber>0</columnNumber>
@@ -318,13 +267,11 @@
       <selectedEnum>0</selectedEnum>
       <visibleDependencies2></visibleDependencies2>
       <formId>129</formId>
-      <colspan>2</colspan>
+      <colspan>0</colspan>
       <highlightCell>false</highlightCell>
       <dropdownTable>regimen_group</dropdownTable>
       <dropdownColumn>name</dropdownColumn>
       <dropdownConstraint></dropdownConstraint>
-      <dropdownOrderByClause>ORDER BY name</dropdownOrderByClause>
-      <fkIdentifier></fkIdentifier>
     </org.rti.zcore.PageItem>
     <org.rti.zcore.PageItem>
       <id>4548</id>
@@ -346,9 +293,9 @@
         <locale>en_US</locale>
       </form__field>
       <formFieldId>2265</formFieldId>
-      <displayOrder>7</displayOrder>
+      <displayOrder>6</displayOrder>
       <inputType>checkbox</inputType>
-      <closeRow>true</closeRow>
+      <closeRow>false</closeRow>
       <columnNumber>0</columnNumber>
       <size>0</size>
       <maxlength>0</maxlength>
@@ -361,13 +308,8 @@
       <selectedEnum>0</selectedEnum>
       <visibleDependencies2></visibleDependencies2>
       <formId>129</formId>
-      <colspan>1</colspan>
+      <colspan>0</colspan>
       <highlightCell>false</highlightCell>
-      <dropdownTable></dropdownTable>
-      <dropdownColumn></dropdownColumn>
-      <dropdownConstraint></dropdownConstraint>
-      <dropdownOrderByClause></dropdownOrderByClause>
-      <fkIdentifier></fkIdentifier>
     </org.rti.zcore.PageItem>
     <org.rti.zcore.PageItem>
       <id>4359</id>
@@ -391,7 +333,7 @@
         <locale>en_US</locale>
       </form__field>
       <formFieldId>1428</formFieldId>
-      <displayOrder>8</displayOrder>
+      <displayOrder>7</displayOrder>
       <inputType>display-tbl-end</inputType>
       <closeRow>false</closeRow>
       <visible>true</visible>
