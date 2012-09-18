@@ -355,7 +355,7 @@ public class TestPatientUtils {
 		if (child) {
 			age = generator.nextInt(childAge);
 		} else {
-			age = generator.nextInt(40) + 13;
+			age = generator.nextInt(40) + 15;
 		}
 		String birthDate = DateUtils.generateBirthdate(age).toString();
 		String countryIdDate = birthDate.replace("-", "").substring(2);
