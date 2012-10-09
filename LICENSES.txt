@@ -1,14 +1,16 @@
 Zcore Source Code License
 
 Pertinent source code for the Zcore application is released under the Apache 2.0 License (ASL2). The following text appears at the top of Java, JSP, or XML files:
-
-Copyright 2003 - 2012 Research Triangle Institute
-   
-Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   
-You may obtain a copy of the License at
-       http://www.apache.org/licenses/LICENSE-2.0
+ 
+/*
+ *    Copyright 2003 - 2012 Research Triangle Institute
+ *
+ *    Licensed under the Apache License, Version 2.0 (the "License");
+ *    you may not use this file except in compliance with the License.
+ *    You may obtain a copy of the License at
+ *
+ *        http://www.apache.org/licenses/LICENSE-2.0
+ */
 
 Zcore Documentation License
 
